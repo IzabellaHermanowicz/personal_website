@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(252, 243, 243);
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+}
+
+#nav{
+    height: 10vh;
+    background-color:#010101;
+    color: #95A9BA;
+}
+
+#nav .leftnav{
+    margin-left: 3rem;
+}
+
+#nav i{
+    font-size: 250%;
+}
+
+#nav .rigtnav{
+}
+
+#nav a{
+    text-decoration: none;
+    color: #95A9BA;
+}
+
+.imgfirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    color:#D4A6AA;
+}
+
+.imgfirst h1{
+    font-size: 400%;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+}
+
+.imgfirst p{
+    font-size: 150%;
+    font-weight: 300;
+    color:#95A9BA;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#uppericons{
+    margin: auto;
+    width: 20%;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    font-size: 160%;
+}
+
+.problem{
+    height: 20vh;
+    color:	#0E2427;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.problem input{
+    border-radius: 20px;
+    border: none;
+    padding: 1vw;
+    font-size: 120%;
+    background-color: #07A0C4;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    margin-top: 2vh;
+}
+
+.problem a input{
+    margin-right: 2vw;
+}

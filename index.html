@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <head>
-    <title>POrtoflio</title>
+    <title>Portoflio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd98d1df96.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <section class="first">
 <!--welcome page-->
     <!--Navigation bar-->
-    <nav>
+    <nav id="nav">
         <div class="leftnav">
-            <p>Icon</p>
-            <h1>Dev</h1>
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h1>DEV</h1>
         </div>
         <div class="rightnav">
             <a href="#aboutme">About me</a>
@@ -19,17 +22,19 @@
         </div>       
     </nav>
     <div class="imgfirst">
-        <h1>Welcome</h1>
-        <p>My name is designer</p>
-        <p>icon</p>
-        <p>icon</p>
-        <p>icon</p>
-        <p>icon</p>
+        <h1>Welcome!</h1>
+        <p>My name is designer.</p>
+        <div class="icons" id="uppericons">
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github-square"></i>
+            <i class="fab fa-facebook-square"></i>
+        </div>
     </div>
-    <div>
+    <div class="problem">
         <h1>I am happy to help you with any problem!</h1>
-        <a href="#contact">Contact me!</a>
-        <input type="button" value="Check my CV">
+        <a href="#contact"><input type="button" value="Contact me!"></a>
+        <input type="button" value="Check my CV!">
     </div>
 </section>
 <section class="about">
@@ -116,12 +121,12 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla pretium lectus, in rutrum lorem rutrum sit amet.</p>
         </div>
         <div class="down">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="icons" id="downicons">
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github-square"></i>
+                <i class="fab fa-facebook-square"></i>
+            </div>
             <p>Designer</p>
             <p>Nowhere, Nowhere</p>
             <p>Something Street 123</p>
