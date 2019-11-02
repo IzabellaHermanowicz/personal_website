@@ -53,7 +53,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("1.jpg");
+    background-image: url("pic/1.jpg");
     background-size: cover;
     width: 100%;
     height: 70vh;
@@ -114,7 +114,7 @@ body{
     height: 100vh;
 }
 
-.about h1{
+.about h2{
     padding-top: 4vh;
     margin-left: 9vw;
 }
@@ -136,7 +136,7 @@ body{
     width: 10vw;
 }
 
-#aboutme h1:first-of-type{
+#aboutme h2:first-of-type{
     font-size: 200%;
  }
 
@@ -167,15 +167,16 @@ body{
 #skills{
     font-weight: bold;
     text-align: center;
-
 }
 
-#skills h1:first-of-type{
+#skills h2:first-of-type{
     font-size: 200%;
+    text-align: left;
 }
 
 #skills i{
     font-size: 300%;
+    margin-left: 2vw;
 }
 
 #skills span{
@@ -194,7 +195,7 @@ body{
     border: none;
     padding: 1vw;
     font-size: 120%;
-    background: rgb(123, 119, 201));
+    background: rgb(123, 119, 201);
     background: linear-gradient(90deg, rgb(123, 119, 201) 0%, rgba(7,160,196,1) 51%, #5ed6ee 100%); 
     color: white;
     font-family: 'Muli', sans-serif;
@@ -207,7 +208,7 @@ body{
 
 }
 
-#portfolio h1:first-of-type{
+#portfolio h2:first-of-type{
     text-align: center;
     font-weight: bold;
     font-size: 250%;
@@ -237,11 +238,10 @@ body{
 
 #portfolio .gallery p{
     margin-right: 2rem;
-    text-shadow: 2px 2px 0px #FFFFFF, 2px 2px 2px rgba(94,214,238,0);
 }
 
 #tile1{
-    background-image: url("3.jpg");
+    background-image: url("pic/3.jpg");
     background-size:  cover;
     background-repeat: no-repeat;
     height: 40vh;
@@ -249,7 +249,7 @@ body{
 
 #tile2{
     height: 40vh;
-    background-image: url("5.jpg");
+    background-image: url("pic/5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -257,14 +257,14 @@ body{
 
 #tile3{
     height: 40vh;
-    background-image: url("6.jpg");
+    background-image: url("pic/6.jpg");
     background-size:  cover;
     background-repeat: no-repeat;
 }
 
 #tile4{
     height: 40vh;
-    background-image: url("4.jpg");
+    background-image: url("pic/4.jpg");
     background-size:  cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -272,7 +272,7 @@ body{
 
 #tile5{
     height: 40vh;
-    background-image: url("7.jpg");
+    background-image: url("pic/7.jpg");
     background-size:  cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -288,6 +288,7 @@ body{
 #contact h1{
     font-size: 200%;
     font-weight: bold;
+    margin-left: 8vw;
 }
 
 .boxy{
@@ -364,6 +365,7 @@ body{
     border-radius: 20px;
     font-size: 120%;
     padding: 1vw;
+    padding-left: 2vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
     margin-right: 3vw;
@@ -381,4 +383,7 @@ body{
     font-family: 'Muli', sans-serif;
     resize: none;
     padding: 2vw;
+    margin-left: 2.8vw;
+    margin-top: 2vh;
+    padding-top: 1vh;
 }
