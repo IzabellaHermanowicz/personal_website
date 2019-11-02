@@ -11,7 +11,7 @@ body{
     color:#1A3844;
 }
 
-.first{
+.header{
     margin: 0;
     padding: 0;
 }
@@ -268,7 +268,7 @@ body{
     background-position: center;
 }
 
-#tile2:hover {
+#tile2:hover, #tile3:hover, #tile4:hover{
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -321,6 +321,7 @@ body{
     font-size: 200%;
     font-weight: bold;
     margin-left: 8vw;
+    padding-top: 10vh;
 }
 
 .boxy{
@@ -377,20 +378,21 @@ body{
 }
 
 #leftcon h2{
-    margin-left: 3vw;;
+    margin-left: 3vw;
+    padding-top: 3vh;
 }
 
 #leftcon input[type="submit"]{
     border-radius: 20px;
     border: none;
     padding: 1vh 2vw 1vh 2vw;
-    font-size: 120%;
+    font-size: 150%;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,160,196,1) 51%, #5ed6ee 100%); 
     color: white;
     font-family: 'Muli', sans-serif;
     margin-left: 35vw;
-    margin-top: 6vh;
+    margin-top: 10vh;
 }
 
 #leftcon input[type="submit"]:hover{
@@ -425,3 +427,68 @@ body{
     margin-top: 2vh;
     padding-top: 1vh;
 }
+
+#footer{
+    text-align: center;
+}
+
+@media only screen and (max-height: 940px) {
+    .down{
+        margin-top:10vh;
+    }
+    #leftcon input[type="submit"]{
+        margin-top: 1vh;
+    }
+  }
+
+  @media only screen and (max-height: 840px) {
+    #rightcon{
+        font-size: 60%;
+    }
+    .up p{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-height: 715px) {
+    #aboutme .box{
+        font-size: 80%;
+    }
+    #leftcon{
+        font-size: 70%;
+    }
+    #tile1, #tile5{
+        font-size: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .down{
+        margin-top:10vh;
+    }
+
+    #tile1, #tile5{
+        font-size: 80%;
+    }
+  }
+  @media only screen and (max-width: 860px) {
+    
+    #aboutme .box{
+        font-size: 80%;
+    }
+
+    #rightcon{
+        font-size: 60%;
+    }
+
+    .down{
+        margin-top: 3vh;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+      #frontend{
+          padding-left: 1vw;
+          padding-right: 1vw;
+      }
+   }
