@@ -10,16 +10,13 @@
 <!--welcome page-->
     <!--Navigation bar-->
     <nav id="nav">
-        <div class="leftnav">
-            <i class="fas fa-chalkboard-teacher"></i>
-            <h1>DEV</h1>
-        </div>
-        <div class="rightnav">
-            <a href="#aboutme">About me</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact me</a>
-        </div>       
+        <ul>
+            <li><a href="#first"><i class="fas fa-chalkboard-teacher"></i> DEV</a></li>
+            <li><a href="#aboutme" class="right">About me</a></li>
+            <li><a href="#skills" class="right">Skills</a></li>
+            <li><a href="#portfolio" class="right">Portfolio</a></li>
+            <li><a href="#contact" class="right">Contact me</a></li>
+        </ul>
     </nav>
     <div class="imgfirst">
         <h1>Welcome!</h1>
@@ -44,7 +41,7 @@
         <h1>About me</h1>
         <div class="box">
             <div class="picture">
-                <img>
+                <img src="2.jpg">
             </div>
             <div class="info">
                 <p>Full name: <span>Designer</span></p>
@@ -63,19 +60,19 @@
         <h1>Skills</h1>
         <div class="box techno">
             <div>
-                <p>Icon</p>
-                <p>UX/UI</p>
+                <i class="fas fa-pencil-ruler"></i>
+                <p><span>UX/UI</span></p>
                 <p>Figma</p>
             </div>
-            <div>
-                <p>Icon</p>
-                <p>UX/UI</p>
-                <p>Figma</p>
+            <div id="frontend">
+                <i class="fas fa-desktop"></i>
+                <p><span>Front End</span></p>
+                <p>Html, Css, JavaScript</p>
             </div>
             <div>
-                <p>Icon</p>
-                <p>UX/UI</p>
-                <p>Figma</p>
+                <i class="fas fa-terminal"></i>
+                <p><span>Back End</span></p>
+                <p>Python, Node.js</p>
             </div>
         </div>
     </div>
@@ -84,30 +81,21 @@
 <!--gallery-->
     <h1>Portfolio</h1>
     <div class="gallery">
-        <div>
-            <div>
-                <h1>Design</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla pretium lectus, in rutrum lorem rutrum sit amet.</p>
-                <input type="button" value="Check my CV">
-                <img>
-            </div>
-            <div>
-                <img>
-            </div>
-            <div>
-                <img>
-            </div>
+        <div id="tile1">
+            <h1>Design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla pretium lectus, in rutrum lorem rutrum sit amet.</p>
+            <input type="button" value="View">
         </div>
-        <div>
-            <div>
-                <img>
-            </div>
-            <div>
-                <h1>Design project</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla pretium lectus, in rutrum lorem rutrum sit amet.</p>
-                <input type="button" value="Check my CV">
-                <img>
-            </div>
+        <div id="tile2">
+        </div>
+        <div id="tile3">
+        </div>
+        <div id="tile4">
+        </div>
+        <div id="tile5">
+            <h1>Design project</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla pretium lectus, in rutrum lorem rutrum sit amet.</p>
+            <input type="button" value="View">
         </div>
     </div>
 </section>

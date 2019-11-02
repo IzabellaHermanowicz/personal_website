@@ -1,30 +1,53 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgb(252, 243, 243);
     font-family: 'Muli', sans-serif;
     margin: 0;
+    padding: 0;
+    color:#1A3844;
+}
+
+.first{
+    margin: 0;
+    padding: 0;
 }
 
 #nav{
     height: 10vh;
+    color: rgba(7,160,196,1);
     background-color:#010101;
-    color: #95A9BA;
+    margin-top: 0;
 }
 
-#nav .leftnav{
-    margin-left: 3rem;
+#nav ul{
+    margin-left: 2rem;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 #nav i{
-    font-size: 250%;
+    font-size: 150%;
 }
 
-#nav .rigtnav{
-}
-
-#nav a{
+#nav li a{
+    float: left;
+    display: block;
+    text-align: center;
     text-decoration: none;
-    color: #95A9BA;
+    color:rgba(7,160,196,1);
+    margin-top: 1rem;
+    font-weight: bold;
 }
+
+#nav li .right{
+    float:right;
+    margin-right: 3rem;
+}
+
 
 .imgfirst{
     display: flex;
@@ -66,7 +89,6 @@ body{
 
 .problem{
     height: 20vh;
-    color:	#0E2427;
     margin-top: 3vh;
     text-align: center;
 }
@@ -76,7 +98,8 @@ body{
     border: none;
     padding: 1vw;
     font-size: 120%;
-    background-color: #07A0C4;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,160,196,1) 51%, #5ed6ee 100%); 
     color: white;
     font-family: 'Muli', sans-serif;
     margin-top: 2vh;
@@ -84,4 +107,177 @@ body{
 
 .problem a input{
     margin-right: 2vw;
+}
+
+.about{
+    height: 100vh;
+}
+
+.about h1{
+    padding-top: 4vh;
+    margin-left: 9vw;
+}
+
+.box{
+    -webkit-box-shadow: 0px 0px 73px 8px rgba(247,227,225,1);
+    -moz-box-shadow: 0px 0px 73px 8px rgb(12, 7, 7);
+    box-shadow: 0px 0px 73px 8px rgba(247,227,225,1);
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 35vh;
+    align-items: center;
+    font-size: 120%;
+}
+
+.picture{
+    width: 10vw;
+}
+
+#aboutme h1:first-of-type{
+    font-size: 200%;
+ }
+
+.picture img{
+    border-radius: 50%;
+    height: 14vh;
+    -webkit-box-shadow: 14px 0px 0px -7px rgba(247,226,225,1);
+    -moz-box-shadow: 14px 0px 0px -7px rgba(247,226,225,1);
+    box-shadow: 14px 0px 0px -7px rgba(247,226,225,1);
+}
+
+.info{
+    padding-right: 0;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.info span{
+    color:  rgba(7,160,196,1);
+}
+
+.text{
+    width: 40vw;
+    border-left: 4px dotted rgba(7,160,196,1);
+    padding-left: 5vw;
+}
+
+#skills{
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#skills h1:first-of-type{
+    font-size: 200%;
+}
+
+#skills i{
+    font-size: 300%;
+}
+
+#skills span{
+    color: rgba(7,160,196,1);
+}
+
+#frontend{
+    border-left: 4px dotted rgba(7,160,196,1);
+    border-right: 4px dotted rgba(7,160,196,1);
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#portfolio input{
+    border-radius: 20px;
+    border: none;
+    padding: 1vw;
+    font-size: 120%;
+    background: rgb(123, 119, 201));
+    background: linear-gradient(90deg, rgb(123, 119, 201) 0%, rgba(7,160,196,1) 51%, #5ed6ee 100%); 
+    color: white;
+    font-family: 'Muli', sans-serif;
+    margin-top: 2vh;
+}
+
+#portfolio {
+    margin-bottom: none;
+    height: 100vh;
+
+}
+
+#portfolio h1:first-of-type{
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    padding-top: 4vh;
+}
+
+.gallery{
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 50% 50%;
+    background-color: black;
+    color: rgba(7,160,196,1);
+}
+
+#portfolio .gallery h1, p, input{
+    margin-left: 2rem;
+    text-align: unset;
+}
+
+#portfolio .gallery h1{
+   font-size:200%;
+}
+
+#portfolio .gallery p, h1{
+    margin-right: 2rem;
+    text-shadow: 2px 2px 0px #FFFFFF, 2px 2px 2px rgba(94,214,238,0);
+}
+
+#tile1{
+    background-image: url("3.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+#tile2{
+    height: 40vh;
+    background-image: url("5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tile3{
+    height: 40vh;
+    background-image: url("6.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+#tile4{
+    height: 40vh;
+    background-image: url("4.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tile5{
+    height: 40vh;
+    background-image: url("7.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#contact{
+    height: 100vh;
+    width: 100vw;
 }
