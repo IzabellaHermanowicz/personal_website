@@ -94,7 +94,7 @@ body{
     text-align: center;
 }
 
-.problem input{
+.problem input, .problem button{
     border-radius: 20px;
     border: none;
     padding: 1vw;
@@ -106,7 +106,7 @@ body{
     margin-top: 2vh;
 }
 
-.problem input:hover{
+.problem input:hover, .problem button:hover{
     background: rgb(252, 243, 243);
     border: 4px solid rgba(7,160,196,1);
     color: rgba(7,160,196,1);
@@ -237,12 +237,12 @@ body{
     color: rgba(7,160,196,1);
 }
 
-#portfolio .gallery h1, p, input{
+#portfolio .gallery h3, p, input{
     margin-left: 2rem;
     text-align: unset;
 }
 
-#portfolio .gallery h1{
+#portfolio .gallery h3{
    font-size:200%;
    margin-right: 2rem;
    text-shadow: 2px 2px 0px #FFFFFF, 2px 2px 2px rgba(94,214,238,0);
